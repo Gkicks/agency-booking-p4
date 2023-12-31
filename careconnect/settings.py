@@ -25,9 +25,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-gkicks-agency-booking-p4-07f5ed17gi.us2.codeanyapp.com']
+ALLOWED_HOSTS = [
+    '8000-gkicks-agency-booking-p4-07f5ed17gi.us2.codeanyapp.com', '.herokuapp.com']
 
 
 # Application definition
